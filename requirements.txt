@@ -1,0 +1,43 @@
+# torch (install separately matching your CUDA version)
+# pip install torch==2.7.1 torchvision==0.22.1 torchaudio==2.7.1 --index-url https://download.pytorch.org/whl/cu128
+torch==2.7.1
+torchvision==0.22.1
+torchaudio==2.7.1
+
+# torch extensions (install separately)
+# pip install torch-geometric torch-scatter torch-sparse
+torch-geometric==2.6.1
+torch_scatter==2.1.2
+torch_sparse==0.6.18
+
+# LLM / HuggingFace
+transformers==4.39.3
+peft==0.9.0
+accelerate==1.10.1
+tokenizers==0.15.2
+safetensors==0.6.2
+sentencepiece==0.2.0
+huggingface-hub==0.35.1
+
+# 3D / Vision
+opencv-python==4.11.0.86
+pillow==11.0.0
+trimesh==3.23.1
+plyfile==1.0.1
+scipy==1.12.0
+numpy==1.26.4
+
+# Data / Utils
+einops==0.6.1
+addict==2.4.0
+mmengine==0.10.3
+pandas==1.5.3
+pycocoevalcap==1.2
+pycocotools==2.0.10
+termcolor==2.3.0
+tqdm
+wandb==0.24.0
+yapf==0.43.0
+regex==2025.9.18
+protobuf==4.25.3
+matplotlib==3.10.6
