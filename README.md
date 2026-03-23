@@ -16,19 +16,19 @@
 <p align="center">
   <img src="./assets/teaser.png" alt="teaser" width="100%">
   <br>
-  <em>TLDR: We introduce 3D-SLIM, a method that leverages spatial masking to unlock the 3D reasoning capabilities of LLMs for scene-language understanding tasks including grounding, captioning, and QA.</em>
+  <em>TLDR: We identify two major issues in conventional LLM decoders: spurious order-dependent correlations and limited instruction-object token interaction. To address both, we propose 3D Spatial Language Instruction Mask (3D-SLIM), an efficient and easily integrable solution that generalizes across various baselines and 3D scene-language tasks.</em>
 </p>
 </div>
 
 ---
 
-## 🔊 News
+## News
 - **[2026/03/23]** Support Vicuna-7B, Llama3-8B, and Qwen2-7B.
 - **[2026/03/20]** Released the paper and code of 3D-SLIM.
 
 ---
 
-## ⚙️ Setup
+## Setup
 
 First, clone the repository:
 ```sh
@@ -38,18 +38,13 @@ cd 3D-SLIM
 
 Then set up the environment using one of the following options:
 
-<details>
-<summary><b>Option 1: Docker (Recommended) </b></summary>
-<br>
+**Option 1: Docker (Recommended)**
+
 ```sh
 docker pull yerim0330/chatscene:torch2.7.1-cuda12.8-scatter
 ```
 
-</details>
-
-<details>
-<summary><b>Option 2: pip install</b></summary>
-<br>
+**Option 2: pip install**
 
 **Step 1.** Install PyTorch (CUDA 12.8) and torch extensions:
 ```sh
@@ -69,25 +64,17 @@ pip install -r requirements.txt
 apt-get install -y default-jre
 ```
 
-</details>
-
 ---
 
-## 📦 Data Preparation
+## Data Preparation
 
-<details>
-<summary><b>Option 1: Download preprocessed data</b></summary>
-<br>
+**Option 1: Download preprocessed data**
 
 We provide all preprocessed data on [OneDrive](https://1drv.ms/f/c/e86f3d35728981e7/IgDkZMdZxxirQL7b7Z2Qrt4tAQhipl1s9eIwKwewsW5nDHU?e=nmpGEH).
 
 Download and place the files in the `annotations/` directory — no further steps needed.
 
-</details>
-
-<details>
-<summary><b>Option 2: Prepare from scratch </b></summary>
-<br>
+**Option 2: Prepare from scratch**
 
 For full data preparation steps (ScanNet, Mask3D, 3D/2D feature extraction, etc.), follow the [Chat-Scene preprocess guide](https://github.com/ZzZZCHS/Chat-Scene/tree/dev/preprocess).
 
@@ -96,11 +83,9 @@ Once ready, configure the paths in `preprocess/run_prepare.sh` and run:
 bash preprocess/run_prepare.sh
 ```
 
-</details>
-
 ---
 
-## 🏋️ Model Checkpoints
+## Model Checkpoints
 
 We provide model checkpoints for each LLM backbone:
 
@@ -154,7 +139,7 @@ Place the downloaded checkpoint under `outputs/<model_name>/`.
 
 ---
 
-## 🚀 Training
+## Training
 
 Before running, download the LLM weights of your choice and place them under `llm/`:
 
@@ -175,7 +160,7 @@ bash scripts/run.sh
 ```
 
 <details>
-<summary><b>ℹ️ Explanation of <code>train_tag</code> and <code>val_tag</code></b></summary>
+<summary><b> Explanation of <code>train_tag</code> and <code>val_tag</code></b></summary>
 <br>
 
 Use `#` to separate different datasets.
@@ -195,7 +180,7 @@ Use `#` to separate different datasets.
 
 ---
 
-## 📊 Evaluation
+## Evaluation
 
 Before running, modify the following variables in `scripts/eval.sh`:
 
@@ -209,7 +194,7 @@ bash scripts/eval.sh
 
 ---
 
-## 📚 BibTeX
+## BibTeX
 
 If you find our work helpful, please consider citing:
 ```bibtex
