@@ -11,7 +11,6 @@
 
 [![arXiv](https://img.shields.io/badge/arXiv-2512.02487-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2512.02487)
 
----
 
 <p align="center">
   <img src="./assets/teaser.png" alt="teaser" width="100%">
@@ -20,13 +19,12 @@
 </p>
 </div>
 
----
 
 ## News
 - **[2026/03/23]** Support Vicuna-7B, Llama3-8B, and Qwen2-7B.
 - **[2026/03/20]** Released the paper and code of 3D-SLIM.
 
----
+
 
 ## Setup
 
@@ -64,7 +62,7 @@ pip install -r requirements.txt
 apt-get install -y default-jre
 ```
 
----
+
 
 ## Data Preparation
 
@@ -83,7 +81,6 @@ Once ready, configure the paths in `preprocess/run_prepare.sh` and run:
 bash preprocess/run_prepare.sh
 ```
 
----
 
 ## Model Checkpoints
 
@@ -137,7 +134,6 @@ We provide model checkpoints for each LLM backbone:
 
 Place the downloaded checkpoint under `outputs/<model_name>/`.
 
----
 
 ## Training
 
@@ -178,7 +174,6 @@ Use `#` to separate different datasets.
 </details>
 
 
----
 
 ## Evaluation
 
@@ -191,8 +186,6 @@ Before running, modify the following variables in `scripts/eval.sh`:
 ```sh
 bash scripts/eval.sh
 ```
-
----
 
 ## BibTeX
 
