@@ -111,10 +111,7 @@ class BaseDataset(Dataset):
         scene_mask = self.scene_masks[scene_id] if self.scene_masks is not None else torch.ones(self.max_obj_num, dtype=torch.int)
         
         if permute:
-            if mode == 'train':
-                perm = torch.randperm(self.max_obj_num)
-            else:
-                perm = torch.randperm(self.max_obj_num, generator=torch.Generator().manual_seed(int(time.time())))
+            perm = torch.randperm(self.max_obj_num)
         else:
             perm = torch.arange(self.max_obj_num)
 

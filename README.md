@@ -1,6 +1,6 @@
 <div align="center">
 
-<h2>[CVPR 2026] Masking Matters: Unlocking the Spatial Reasoning Capabilities of LLMs<br>for 3D Scene-Language Understanding</h2>
+<h2>[CVPR 2026] 3D-SLIM<br>Masking Matters: Unlocking the Spatial Reasoning Capabilities of LLMs<br>for 3D Scene-Language Understanding</h2>
 
 
 

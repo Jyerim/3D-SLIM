@@ -7,7 +7,7 @@ train_iou_thres=0.5
 overlap_iou_thres=0.9
 
 seg_feat_file = f"{anno_root}/scannet_{segmentor}_{pc_encoder}_feats.pt"
-seg_img_feat_file = f"{anno_root}/scannet_{segmentor}_videofeats_ours.pt"
+seg_img_feat_file = f"{anno_root}/scannet_{segmentor}_videofeats.pt"
 seg_train_attr_file = f"{anno_root}/scannet_{segmentor}_train_attributes{version}_{overlap_iou_thres}.pt"
 seg_val_attr_file = f"{anno_root}/scannet_{segmentor}_val_attributes{version}_{overlap_iou_thres}.pt"
 
