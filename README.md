@@ -1,7 +1,6 @@
 <div align="center">
 
-<h3>[CVPR 2026] 3D-SLIM</h3>
-<h2>Masking Matters: Unlocking the Spatial Reasoning Capabilities of LLMs<br>for 3D Scene-Language Understanding</h2>
+<h2>[CVPR 2026] Masking Matters: Unlocking the Spatial Reasoning Capabilities of LLMs<br>for 3D Scene-Language Understanding</h2>
 
 
 
@@ -13,7 +12,7 @@
 
 
 <p align="center">
-  <img src="./assets/teaser.png" alt="teaser" width="100%">
+  <img src="./assets/motivation.png" alt="motivation" width="100%">
   <br>
   <em>TLDR: We identify two major issues in conventional LLM decoders: spurious order-dependent correlations and limited instruction-object token interaction. To address both, we propose 3D Spatial Language Instruction Mask (3D-SLIM), an efficient and easily integrable solution that generalizes across various baselines and 3D scene-language tasks.</em>
 </p>
