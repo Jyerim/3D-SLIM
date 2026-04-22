@@ -67,7 +67,7 @@ apt-get install -y default-jre
 
 **Option 1: Download preprocessed data**
 
-We provide all preprocessed data on [OneDrive](https://1drv.ms/f/c/e86f3d35728981e7/IgDkZMdZxxirQL7b7Z2Qrt4tAQhipl1s9eIwKwewsW5nDHU?e=nmpGEH).
+We provide all preprocessed data on [OneDrive](https://1drv.ms/f/c/e86f3d35728981e7/IgAqZF45k7b0TqsmdEhH75zZAWgwBTRRLSSNUOnvHektt18).
 
 Download and place the files in the `annotations/` directory — no further steps needed.
 
@@ -105,7 +105,7 @@ We provide model checkpoints for each LLM backbone:
   </thead>
   <tbody>
     <tr>
-      <td><a href="https://1drv.ms/u/c/e86f3d35728981e7/IQAJq-2nU-UMTbP7vZPRwTAHATjsPsqJHN8PSfOslt8Ye18?e=vlu9uF">Vicuna-7B + Ours</a></td>
+      <td><a href="https://1drv.ms/u/c/e86f3d35728981e7/IQACuHeahJzuRIKW7E7ngE_qAe0ayyo0X56cYuYOQqcyn4w?e=hUeSVW">Vicuna-7B + Ours</a></td>
       <td>59.6</td><td>54.1</td>
       <td>63.7</td><td>58.7</td>
       <td>84.2</td><td>38.0</td>
@@ -113,7 +113,7 @@ We provide model checkpoints for each LLM backbone:
       <td>55.9</td><td>58.9</td>
     </tr>
     <tr>
-      <td><a href="https://1drv.ms/u/c/e86f3d35728981e7/IQDNUdXDmEU3TZsxbm4_iUh7AambcW18JMCypUdxGRCnbCQ?e=rT1P3T">Llama3-8B + Ours</a></td>
+      <td><a href="https://1drv.ms/u/c/e86f3d35728981e7/IQDvMwxJXqyKR73ea4W_xeO0AZqZzQVRrlqzNltKNp9loO8?e=xnggZk">Llama3-8B + Ours</a></td>
       <td>61.8</td><td>55.7</td>
       <td>64.3</td><td>59.2</td>
       <td>85.1</td><td>38.8</td>
@@ -121,7 +121,7 @@ We provide model checkpoints for each LLM backbone:
       <td>56.3</td><td>59.2</td>
     </tr>
     <tr>
-      <td><a href="https://1drv.ms/u/c/e86f3d35728981e7/IQDjU_u9ZNifS6OqLQXJCYszAV0bf1o_FoUpvUT-m6vy0UI?e=9Q9txD">Qwen2-7B + Ours</a></td>
+      <td><a href="https://1drv.ms/u/c/e86f3d35728981e7/IQBBUW8L1bM_QJiPHG86JKRgASwCt8oi7Q4Vv-ThN4kggag">Qwen2-7B + Ours</a></td>
       <td>61.0</td><td>54.8</td>
       <td>63.9</td><td>58.8</td>
       <td>85.0</td><td>38.9</td>
